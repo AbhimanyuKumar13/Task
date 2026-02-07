@@ -1,0 +1,69 @@
+.navbar {
+  height: 64px;
+  padding: 0 2rem;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  letter-spacing: 0.5px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.username {
+  color: #c7d2fe;
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Variants */
+.primary {
+  background-color: #6366f1;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #4f46e5;
+}
+
+.secondary {
+  background-color: transparent;
+  color: #c7d2fe;
+  border: 1px solid #475569;
+}
+
+.secondary:hover {
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+.danger {
+  background-color: #dc2626;
+  color: #fff;
+}
+
+.danger:hover {
+  background-color: #b91c1c;
+}
